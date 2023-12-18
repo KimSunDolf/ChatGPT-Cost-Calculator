@@ -49,7 +49,7 @@
 <body>
     <div class="container">
         <h1 class="title">OpenAI ChatGPT API 成本计算器（中文版）</h1>
-		<a href="https://github.com/terobox/ChatGPT-Cost-Calculator" target="_blank" rel="noopener noreferrer" style="display: block; margin: 0 auto; text-decoration: none; color: #a61b29; text-align: center;">GitHub链接</a>
+		<a href="https://github.com/KimSunDolf/ChatGPT-Cost-Calculator.git" target="_blank" rel="noopener noreferrer" style="display: block; margin: 0 auto; text-decoration: none; color: #a61b29; text-align: center;">GitHub链接</a>
         <br>
 		<h2 class="description">
             这是一款专门为团队和开发者设计的工具，可以帮助用户准确预算和规划他们在项目中使用ChatGPT API的成本。
@@ -69,10 +69,11 @@
           <div class="selstyle">
             <label>选择语言模型:</label>
             <select id="model">
-                <option value="chatgpt-4k">GPT-3.5-Turbo 4K</option>
-				<option value="chatgpt-16k">GPT-3.5-Turbo 16K</option>
+                <option value="gpt3.5-turbo">gpt-3.5-turbo-1106</option>
+				<option value="gpt-3.5-turbo-instruct">gpt-3.5-turbo-instruct</option>
                 <option value="gpt4-8k">GPT-4.0 8K</option>
                 <option value="gpt4-32k">GPT-4 32K</option>
+                <option value="gpt4-128k">GPT-4 Turbo</option>
             </select>
           </div>
         </div>
@@ -109,13 +110,15 @@
 				<br>
 				1) 模型对应的价格：
 				<br><br>
-				GPT-3.5-Turbo 4K - $0.002 / 1K tokens
+				gpt-3.5-turbo-1106 - $0.002 / 1K tokens
 				<br>
-				GPT-3.5-Turbo 16K - $0.004 / 1K tokens
+				gpt-3.5-turbo-instruct - $0.002 / 1K tokens
 				<br>
 				GPT-4.0 8K - $0.06 / 1K tokens
 				<br>
 				GPT-4.0 32K - $0.12 / 1K tokens
+				<br>
+				GPT-4.0 128K - $0.03 / 1K tokens                
 				<br><br>
 				
 				2) 计算公式：
@@ -124,7 +127,7 @@
 				<br><br>
 				<h3>团队介绍：</h3>
 				<br>
-				<a href="https://openkey.cloud/" target="_blank" style="color: #B13A3D;">OpenKey.Cloud</a> - 提供企业级专业稳定的 ChatGPT 接口集成分发服务。
+				<a href="https://ai.pflm.net/" target="_blank" style="color: #B13A3D;">飞鸟 Chat</a> - 提供专业的 AI 聊天服务。
                 <button class="modal-close">关闭</button>
           </div>
         </div>

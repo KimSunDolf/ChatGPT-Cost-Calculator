@@ -24,10 +24,10 @@ function calculateTotal(words) {
   let price = 0;
 
   switch (model) {
-    case 'chatgpt-4k':
+    case 'gpt3.5-turbo':
       price = 0.002;
       break;
-    case 'chatgpt-16k':
+    case 'gpt-3.5-turbo-instruct':
       price = 0.004;
       break;
     case 'gpt4-8k':
@@ -36,6 +36,9 @@ function calculateTotal(words) {
     case 'gpt4-32k':
       price = 0.12;
       break;
+      case 'gpt4-128k':
+        price = 0.03;
+        break;      
     default:
       break;
   }
