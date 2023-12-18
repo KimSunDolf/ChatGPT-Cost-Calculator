@@ -43,7 +43,7 @@
 
 ## 相关项目
 
-* [ChatGPT-API-Faucet](https://github.com/terobox/ChatGPT-API-Faucet): AI 圈的水龙头网站，每24小时可领取一个令牌用于开发测试 AI 产品
+* [飞鸟 Chat](https://ai.pflm.net): 原汁原味的狗屁通问答对话体验。
 
 ## 开源协议
 
